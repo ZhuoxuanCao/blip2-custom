@@ -106,7 +106,7 @@ from lavis.datasets.builders.object3d_caption_builder import (
     ShapenetCaptionBuilder
 )
 from lavis.datasets.builders.object3d_qa_builder import ObjaverseQABuilder
-from lavis.datasets.builders.object3d_classification_builder import ModelNetClassificationBuilder
+# from lavis.datasets.builders.object3d_classification_builder import ModelNetClassificationBuilder
 
 from lavis.datasets.builders.audio_qa_builder import AudioCapsQABuilder, ClothoQABuilder
 
@@ -185,7 +185,7 @@ __all__ = [
     "WavCapsCapInstructBuilder",
     "ObjaverseCaptionInstructBuilder",
     "ShapenetCaptionInstructBuilder",
-    "ModelNetClassificationBuilder",
+    # "ModelNetClassificationBuilder",
     "ObjaverseCaptionInstructBuilder",
     "MSRVTTCapInstructBuilder",
     "MSVDCapInstructBuilder",

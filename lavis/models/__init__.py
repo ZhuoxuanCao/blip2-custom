@@ -39,13 +39,13 @@ from lavis.models.blip2_models.blip2_image_text_matching import Blip2ITM
 
 from lavis.models.blip2_models.blip2_t5_instruct import Blip2T5Instruct
 from lavis.models.blip2_models.blip2_vicuna_instruct import Blip2VicunaInstruct
-from lavis.models.blip2_models.blip2_vicuna_xinstruct import Blip2VicunaXInstruct
+# from lavis.models.blip2_models.blip2_vicuna_xinstruct import Blip2VicunaXInstruct
 
-from lavis.models.blip_diffusion_models.blip_diffusion import BlipDiffusion
+# from lavis.models.blip_diffusion_models.blip_diffusion import BlipDiffusion
 
 from lavis.models.pnp_vqa_models.pnp_vqa import PNPVQA
 from lavis.models.pnp_vqa_models.pnp_unifiedqav2_fid import PNPUnifiedQAv2FiD
-from lavis.models.img2prompt_models.img2prompt_vqa import Img2PromptVQA
+# from lavis.models.img2prompt_models.img2prompt_vqa import Img2PromptVQA
 from lavis.models.med import XBertLMHeadDecoder
 from lavis.models.vit import VisionTransformerEncoder
 from lavis.models.clip_models.model import CLIP
@@ -70,7 +70,7 @@ __all__ = [
     "BlipFeatureExtractor",
     "BlipCaption",
     "BlipClassification",
-    "BlipDiffusion",
+    # "BlipDiffusion",
     "BlipITM",
     "BlipNLVR",
     "BlipPretrain",
@@ -83,9 +83,9 @@ __all__ = [
     "Blip2T5",
     "Blip2T5Instruct",
     "Blip2VicunaInstruct",
-    "Blip2VicunaXInstruct",
+    # "Blip2VicunaXInstruct",
     "PNPVQA",
-    "Img2PromptVQA",
+    # "Img2PromptVQA",
     "PNPUnifiedQAv2FiD",
     "CLIP",
     "VisionTransformerEncoder",
