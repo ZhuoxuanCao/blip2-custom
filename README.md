@@ -1,3 +1,14 @@
+## ⚠️ Repository Notice / 本仓库说明
+
+This project is a customized version of the original [BLIP-2 by Salesforce Research](https://github.com/salesforce/LAVIS), and follows the BSD 3-Clause License.
+
+### ✏️ Modifications:
+- Added `demo.py` to enable simplified local inference;
+- Commented out unnecessary modules (e.g., XXX);
+- Simplified the model loading process for easier integration into projects.
+
+The original `README.md` content is retained below.
+
 <p align="center">
     <br>
     <img src="docs/_static/logo_final.png" width="400"/>
