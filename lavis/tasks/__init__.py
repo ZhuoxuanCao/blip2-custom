@@ -14,9 +14,9 @@ from lavis.tasks.multimodal_classification import (
 )
 from lavis.tasks.retrieval import RetrievalTask
 from lavis.tasks.vqa import VQATask, GQATask, AOKVQATask, DisCRNTask
-from lavis.tasks.vqa_reading_comprehension import VQARCTask, GQARCTask
+# from lavis.tasks.vqa_reading_comprehension import VQARCTask, GQARCTask
 from lavis.tasks.dialogue import DialogueTask
-from lavis.tasks.text_to_image_generation import TextToImageGenerationTask
+# from lavis.tasks.text_to_image_generation import TextToImageGenerationTask
 
 
 def setup_task(cfg):
@@ -36,13 +36,13 @@ __all__ = [
     "CaptionTask",
     "VQATask",
     "GQATask",
-    "VQARCTask",
-    "GQARCTask",
+    # "VQARCTask",
+    # "GQARCTask",
     "MultimodalClassificationTask",
     # "VideoQATask",
     # "VisualEntailmentTask",
     "ImageTextPretrainTask",
     "DialogueTask",
-    "TextToImageGenerationTask",
+    # "TextToImageGenerationTask",
     "DisCRNTask"
 ]
